@@ -1,0 +1,105 @@
+.article {
+  background-color: rgba(0,0,0,.1);
+  border:1px solid rgb(50,50,50);
+  border-radius: 6px;
+  /*box-shadow: 1px 1px 8px rgba(0,0,0,.5);*/
+  display:flex;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -o-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 1rem;
+}
+.article.unt-green {
+  background-color: rgba(0,133,62,.1);
+  border-color: rgb(0,133,62);
+  color: rgb(0,133,62);
+  /*box-shadow: 1px 1px 8px rgba(0,133,62,.5);*/
+}
+.article.light-green {
+  background-color: rgba(114, 184, 62,.1);
+  border-color: rgb(114, 184, 62);
+  color: rgb(0, 106, 49);
+  /*box-shadow: 1px 1px 8px rgba(114, 184, 62,.5);*/
+}
+.article.dark-green {
+  background-color: rgba(0, 106, 49,.1);
+  border-color: rgb(0, 106, 49);
+  color: rgb(0, 106, 49);
+  /*box-shadow: 1px 1px 8px rgba(0, 106, 49,.5);*/
+}
+.article.beige {
+  background-color: rgba(229, 219, 174,.1);
+  border-color: rgb(229, 219, 174);
+  color: rgb(82, 48, 27);
+  /*box-shadow: 1px 1px 8px rgba(229, 219, 174,.5);*/
+}
+.article.light-brown {
+  background-color: rgba(136, 122, 104,.1);
+  border-color: rgb(136, 122, 104);
+  color: rgb(82, 48, 27);
+  /*box-shadow: 1px 1px 8px rgba(136, 122, 104,.5);*/
+}
+.article.dark-brown {
+  background-color: rgba(82, 48, 27,.1);
+  border-color: rgb(82, 48, 27);
+  color: rgb(82, 48, 27);
+  /*box-shadow: 1px 1px 8px rgba(82, 48, 27,.5);*/
+}
+.article.light-blue {
+  background-color: rgba(132, 177, 205,.1);
+  border-color: rgb(132, 177, 205);
+  color: rgb(0, 130, 101);
+  /*box-shadow: 1px 1px 8px rgba(132, 177, 205,.5);*/
+}
+.article.aqua {
+  background-color: rgba(0, 130, 101,.1);
+  border-color: rgb(0, 130, 101);
+  color: rgb(0, 130, 101);
+  /*box-shadow: 1px 1px 8px rgba(0, 130, 101,.5);*/
+}
+.article img {
+  max-height: 220px;
+  width: auto;
+}
+.article .image {
+  width: auto;
+  height: 200px;
+  overflow: hidden;
+}
+.article.left-image .image {
+  float: left;
+  margin:0 2rem 1rem 0;
+}
+.article.right-image .image {
+  float:right;
+  margin:0 0 1rem 2rem;
+}
+.article.no-image img {
+  display: none;
+}
+.article h3.headline {
+  margin: .25rem 0 1.5rem;
+  font-size: 1.875rem;
+}
+.article p {
+  line-height: 1.625rem;
+}
+.article p:first-of-type{
+  margin-top:0;
+}
+.article header {
+  display: block;
+}
+.article header,
+.article .story {
+  width: 75%;
+  margin: .5rem auto;
+}

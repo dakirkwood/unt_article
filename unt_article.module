@@ -1,0 +1,5 @@
+<?php
+
+function unt_article_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'unt_article/article_styles';
+}
